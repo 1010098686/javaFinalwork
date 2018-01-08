@@ -11,8 +11,8 @@ import java.util.concurrent.TimeUnit;
 
 public class SpacePanel extends JPanel implements Observer {
 
-    private static final int M = 10;
-    private static final int N = 10;
+    public static final int M = 10;
+    public static final int N = 10;
 
     private Position[][] space;
     private boolean started = false;
